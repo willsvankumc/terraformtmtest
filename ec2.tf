@@ -14,8 +14,8 @@ provider "aws" {
   region  = "us-east-2"
 }
 
-resource "aws_instance" "Harshul_Routhu" {
-  ami           = "ami-830c94e3"
+resource "aws_instance" "wvdterraformtest" {
+  ami           = "ami-02d1e544b84bf7502"
   instance_type = "t2.micro"
 
 }
